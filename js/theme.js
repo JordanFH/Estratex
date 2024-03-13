@@ -366,10 +366,7 @@
         submitHandler: function (form) {
           $(form).ajaxSubmit({
             success: function () {
-              $(".form-validation :input").attr("disabled", "disabled");
               $(".form-validation").fadeTo("slow", 1, function () {
-                $(this).find(":input").attr("disabled", "disabled");
-                $(this).find("label").css("cursor", "default");
                 $("#alert-success").fadeIn();
               });
             },

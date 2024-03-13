@@ -197,10 +197,24 @@
             <div class="col-lg-7 col-12">
               <div class="form-wrapper">
                 <form
-                  action="inc/sendemail.php"
+                  action="https://formsubmit.co/55cfef12a273c12cb5c9bac5542778ec"
+                  method="POST"
                   class="theme-form-one form-validation"
                   autocomplete="off"
                 >
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nuevo mensaje de contacto"
+                  />
+                  <input type="hidden" name="_template" value="table" />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="text" name="_honey" style="display: none" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://estratex.vercel.app/contact.html"
+                  />
                   <div class="row">
                     <div class="col-sm-6 col-12">
                       <input
@@ -243,7 +257,7 @@
                     </div>
                   </div>
                   <!-- /.row -->
-                  <button class="theme-button-one">Enviar</button>
+                  <button type="submit" class="theme-button-one">Enviar</button>
                 </form>
               </div>
               <!-- /.form-wrapper -->
