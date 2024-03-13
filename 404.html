@@ -31,7 +31,20 @@
       <script src="vendor/respond.js"></script>
     <![endif]-->
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-62H9B750R6"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
+    gtag("config", "G-62H9B750R6");
+  </script>
   <body>
     <div class="main-page-wrapper">
       <!-- ===================================================
@@ -213,10 +226,7 @@
               <!-- /.logo-widget -->
               <div
                 class="col-lg-4 col-sm-6 col-12 footer-list d-sm-flex"
-                style="
-                  flex-direction: column;
-                  align-items: center;
-                "
+                style="flex-direction: column; align-items: center"
               >
                 <h6 class="title">Explorar</h6>
                 <ul>
