@@ -16,9 +16,9 @@
     <meta name="msapplication-navbutton-color" content="#061948" />
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#061948" />
-    <title>ESTRATEX CONSULTORES</title>
+    <title>Inicio - ESTRATEX CONSULTORES</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="56x56" href="images/icon.png" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- Main style sheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- responsive style sheet -->
@@ -43,31 +43,56 @@
 
       <!-- 
 			=============================================
-				Theme Header One
+				Theme Header Two
 			============================================== 
 			-->
-      <header class="header-one">
+      <header class="header-two">
+        <div id="header-fixed-height"></div>
         <div class="top-header">
-          <div class="container clearfix">
-            <div class="logo float-left">
-              <a href="index.html"><img src="images/logo.png" alt="" /></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-8 col-12">
+                <ul class="left-widget">
+                  <li>
+                    ¡Apoyamos tu emprendimiento!
+                    <a
+                      href="contact.html"
+                      style="color: steelblue"
+                      onMouseOver="this.style.color='#fff'"
+                      onMouseOut="this.style.color='steelblue'"
+                    >
+                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      Contáctanos
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-sm-4 col-12">
+                <ul class="social-icon">
+                  <li>
+                    <a href="https://www.facebook.com/"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/"
+                      ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://pe.linkedin.com/"
+                      ><i class="fa fa-linkedin" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="address-wrapper float-right">
-              <ul>
-                <li class="address">
-                  <i class="icon flaticon-placeholder"></i>
-                  <h6>Address:</h6>
-                  <p>2A0, Queenstown St, USA.</p>
-                </li>
-                <li class="address">
-                  <i class="icon flaticon-multimedia"></i>
-                  <h6>Mail us:</h6>
-                  <p>supporthere@mail.com</p>
-                </li>
-                <li class="quotes"><a href="#">GET A QUOTES</a></li>
-              </ul>
-            </div>
-            <!-- /.address-wrapper -->
+            <!-- /.row -->
           </div>
           <!-- /.container -->
         </div>
@@ -76,114 +101,43 @@
         <div class="theme-menu-wrapper">
           <div class="container">
             <div class="bg-wrapper clearfix">
+              <div class="logo float-left">
+                <a href="index.html" class="d-flex align-items-center"
+                  ><img
+                    src="images/logo.png"
+                    alt=""
+                    width="64"
+                    height="64"
+                  /><span class="ml-3 d-md-block d-none"
+                    >ESTRATEX CONSULTORES</span
+                  ></a
+                >
+              </div>
               <!-- ============== Menu Warpper ================ -->
-              <div class="menu-wrapper float-left">
+              <div class="menu-wrapper float-right">
                 <nav id="mega-menu-holder" class="clearfix">
                   <ul class="clearfix">
                     <li class="active">
-                      <a href="#">Home</a>
-                      <ul class="dropdown">
-                        <li><a href="index.html">Home version one</a></li>
-                        <li><a href="index-2.html">Home version two</a></li>
-                      </ul>
+                      <a href="index.html">Inicio</a>
                     </li>
                     <li>
-                      <a href="#">PAGES</a>
-                      <ul class="dropdown">
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="team.html">Our team</a></li>
-                        <li><a href="faq.html">Faq's</a></li>
-                        <li><a href="404.html">404</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="shop-details.html">Shop details</a></li>
-                        <li>
-                          <a href="#">Third Level menu</a>
-                          <ul>
-                            <li><a href="#">Demo one</a></li>
-                            <li><a href="#">Demo two</a></li>
-                          </ul>
-                        </li>
-                      </ul>
+                      <a href="about.html">Nosotros</a>
                     </li>
                     <li>
-                      <a href="#">Service</a>
-                      <ul class="dropdown">
-                        <li><a href="service.html">Service Version one</a></li>
-                        <li>
-                          <a href="service-v2.html">Service version two</a>
-                        </li>
-                        <li>
-                          <a href="service-details.html">Service Details</a>
-                        </li>
-                      </ul>
+                      <a href="service.html">Servicios</a>
                     </li>
                     <li>
-                      <a href="#">Portfolio</a>
-                      <ul class="dropdown">
-                        <li><a href="project.html">project</a></li>
-                        <li>
-                          <a href="project-details.html">Project details</a>
-                        </li>
-                      </ul>
+                      <a href="contact.html">Contacto</a>
                     </li>
-                    <li>
-                      <a href="#">Blog</a>
-                      <ul class="dropdown">
-                        <li><a href="blog.html">Blog List</a></li>
-                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                        <li><a href="blog-details.html">Blog details</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="contact.html">contact</a></li>
                   </ul>
                 </nav>
                 <!-- /#mega-menu-holder -->
               </div>
               <!-- /.menu-wrapper -->
-
               <div class="right-widget float-right">
                 <ul>
-                  <li class="social-icon">
-                    <ul>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-facebook" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-twitter" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-linkedin" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa fa-pinterest" aria-hidden="true"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </li>
                   <li class="cart-icon">
-                    <a href="#"><i class="flaticon-tool"></i> <span>2</span></a>
-                  </li>
-                  <li class="search-option">
-                    <div class="dropdown">
-                      <button
-                        type="button"
-                        class="dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </button>
-                      <form action="#" class="dropdown-menu">
-                        <input type="text" placeholder="Enter Your Search" />
-                        <button><i class="fa fa-search"></i></button>
-                      </form>
-                    </div>
+                    <i class="flaticon-tool" style="color: transparent"></i>
                   </li>
                 </ul>
               </div>
@@ -195,7 +149,7 @@
         </div>
         <!-- /.theme-menu-wrapper -->
       </header>
-      <!-- /.header-one -->
+      <!-- /.header-two -->
 
       <!-- 
 			=============================================
@@ -982,74 +936,77 @@
 				Footer
 			=====================================================
 			-->
-      <footer class="theme-footer-one">
+      <footer class="theme-footer-two">
         <div class="top-footer">
           <div class="container">
             <div class="row">
-              <div class="col-xl-3 col-lg-4 col-sm-6 about-widget">
-                <h6 class="title">About OUR Consulting</h6>
-                <p>
-                  That started from this tropic port aboard this tiny ship today
-                  still want by theam government they survive on up to thetre
-                  east side to a deluxe as soldiers of artics fortune.
-                </p>
-                <div class="queries">
-                  <i class="flaticon-phone-call"></i> Any Queries :
-                  <a href="#">(+1) 234 567 900</a>
+              <div class="col-lg-4 col-sm-6 col-12 logo-widget">
+                <div class="logo">
+                  <a href="index.html" class="d-flex align-items-center"
+                    ><img src="images/logo.png" alt="" width="64" height="64" />
+                    <h6 class="title ml-3">ESTRATEX CONSULTORES</h6></a
+                  >
                 </div>
-              </div>
-              <!-- /.about-widget -->
-              <div class="col-xl-4 col-lg-3 col-sm-6 footer-recent-post">
-                <h6 class="title">RECENT POSTS</h6>
-                <ul>
-                  <li class="clearfix">
-                    <img src="images/1.jpg" alt="" class="float-left" />
-                    <div class="post float-left">
-                      <a href="blog-details.html"
-                        >Till wanted by theam govern they survive as
-                        soldiers.</a
-                      >
-                      <div class="date">
-                        <i class="fa fa-calendar-o" aria-hidden="true"></i> Feb
-                        06, 2018
-                      </div>
-                    </div>
+                <p>
+                  ESTRATEX CONSULTORES es una agencia que ofrece soluciones
+                  creativas y personalizadas a PYMEs, así como a personas
+                  naturales.
+                </p>
+                <ul class="social-icon">
+                  <li>
+                    <a href="https://www.facebook.com/"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
                   </li>
-                  <li class="clearfix">
-                    <img src="images/2.jpg" alt="" class="float-left" />
-                    <div class="post float-left">
-                      <a href="blog-details.html"
-                        >World don't move to beat of just one drum.</a
-                      >
-                      <div class="date">
-                        <i class="fa fa-calendar-o" aria-hidden="true"></i> Mar
-                        20, 2018
-                      </div>
-                    </div>
+                  <li>
+                    <a href="https://www.instagram.com/"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/"
+                      ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://pe.linkedin.com/"
+                      ><i class="fa fa-linkedin" aria-hidden="true"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
-              <!-- /.footer-recent-post -->
-              <div class="col-xl-2 col-lg-3 col-sm-6 footer-list">
-                <h6 class="title">SOLUTIONS</h6>
+              <!-- /.logo-widget -->
+              <div
+                class="col-lg-4 col-sm-6 col-12 footer-list d-sm-flex"
+                style="flex-direction: column; align-items: center"
+              >
+                <h6 class="title">Explorar</h6>
                 <ul>
-                  <li><a href="#">Travel and Aviation</a></li>
-                  <li><a href="#">Business Services</a></li>
-                  <li><a href="#">Consumer Products</a></li>
-                  <li><a href="#">Financial Services</a></li>
-                  <li><a href="#">Software Research</a></li>
-                  <li><a href="#">Quality Resourcing</a></li>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="about.html">Nosotros</a></li>
+                  <li><a href="service.html">Servicios</a></li>
+                  <li><a href="contact.html">Contacto</a></li>
                 </ul>
               </div>
               <!-- /.footer-list -->
-              <div class="col-xl-3 col-lg-2 col-sm-6 footer-newsletter">
-                <h6 class="title">NEWSLETTER</h6>
-                <form action="#">
-                  <input type="text" placeholder="Name *" />
-                  <input type="email" placeholder="Email *" />
-                  <button class="theme-button-one">SUBSCRIBE</button>
-                </form>
+              <div class="col-lg-4 col-sm-6 col-12 contact-widget">
+                <h6 class="title">Contacto</h6>
+                <ul>
+                  <li>
+                    <i class="flaticon-direction-signs"></i>
+                    Av. Atahualpa 1050, Cajamarca - Perú
+                  </li>
+                  <li>
+                    <i class="flaticon-multimedia-1"></i>
+                    <a href="mailto:estratex@gmail.com">estratex@gmail.com</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="tel:+51987654321">(+51) 987 654 321</a>
+                  </li>
+                </ul>
               </div>
+              <!-- /.contact-widget -->
             </div>
             <!-- /.row -->
           </div>
@@ -1058,24 +1015,12 @@
         <!-- /.top-footer -->
         <div class="bottom-footer">
           <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-12">
-                <p>© Copyrights 2018. All Rights Reserved.</p>
-              </div>
-              <div class="col-md-6 col-12">
-                <ul>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="service.html">Solutions</a></li>
-                  <li><a href="#">FAQ’s</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-            </div>
+            <p>© Copyrights 2024. Todos los derechos reservados.</p>
           </div>
         </div>
         <!-- /.bottom-footer -->
       </footer>
-      <!-- /.theme-footer -->
+      <!-- /.theme-footer-two -->
 
       <!-- Scroll Top Button -->
       <button class="scroll-top tran3s">
