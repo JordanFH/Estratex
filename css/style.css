@@ -411,6 +411,21 @@ body .theme-button-one {
 body .theme-button-one:hover {
   background: #000f32;
 }
+.theme-button-two {
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #fff;
+  color: #000f32;
+  border-radius: 5px;
+  padding: 0 35px;
+  transition: all 0.3s ease-in-out;
+}
+.theme-button-two:hover {
+  background: #000f32;
+  color: #fff;
+}
 /*------------------- Theme Title ------------------*/
 .theme-title-one {
   position: relative;
